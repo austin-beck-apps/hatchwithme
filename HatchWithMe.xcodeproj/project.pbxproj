@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA67E2C42D90A2460086C0CB /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = FA67E2C32D90A2460086C0CB /* GoogleMobileAds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6A0E612C9C8DF60018E0A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6A0E482C9C8DF50018E0A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6A0E4F2C9C8DF50018E0A4;
+			remoteInfo = HatchWithMe;
+		};
+		FA6A0E6B2C9C8DF60018E0A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6A0E482C9C8DF50018E0A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6A0E4F2C9C8DF50018E0A4;
+			remoteInfo = HatchWithMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA6A0E502C9C8DF50018E0A4 /* HatchWithMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HatchWithMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6A0E602C9C8DF60018E0A4 /* HatchWithMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HatchWithMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6A0E6A2C9C8DF60018E0A4 /* HatchWithMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HatchWithMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FA1C74BA2D90E2A3007E77C6 /* Exceptions for "HatchWithMe" folder in "HatchWithMe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FA6A0E4F2C9C8DF50018E0A4 /* HatchWithMe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA6A0E522C9C8DF50018E0A4 /* HatchWithMe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FA1C74BA2D90E2A3007E77C6 /* Exceptions for "HatchWithMe" folder in "HatchWithMe" target */,
+			);
+			path = HatchWithMe;
+			sourceTree = "<group>";
+		};
+		FA6A0E632C9C8DF60018E0A4 /* HatchWithMeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HatchWithMeTests;
+			sourceTree = "<group>";
+		};
+		FA6A0E6D2C9C8DF60018E0A4 /* HatchWithMeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HatchWithMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6A0E4D2C9C8DF50018E0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA67E2C42D90A2460086C0CB /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6A0E5D2C9C8DF60018E0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6A0E672C9C8DF60018E0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6A0E472C9C8DF50018E0A4 = {
+			isa = PBXGroup;
+			children = (
+				FA6A0E522C9C8DF50018E0A4 /* HatchWithMe */,
+				FA6A0E632C9C8DF60018E0A4 /* HatchWithMeTests */,
+				FA6A0E6D2C9C8DF60018E0A4 /* HatchWithMeUITests */,
+				FA6A0E512C9C8DF50018E0A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6A0E512C9C8DF50018E0A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6A0E502C9C8DF50018E0A4 /* HatchWithMe.app */,
+				FA6A0E602C9C8DF60018E0A4 /* HatchWithMeTests.xctest */,
+				FA6A0E6A2C9C8DF60018E0A4 /* HatchWithMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6A0E4F2C9C8DF50018E0A4 /* HatchWithMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6A0E742C9C8DF60018E0A4 /* Build configuration list for PBXNativeTarget "HatchWithMe" */;
+			buildPhases = (
+				FA6A0E4C2C9C8DF50018E0A4 /* Sources */,
+				FA6A0E4D2C9C8DF50018E0A4 /* Frameworks */,
+				FA6A0E4E2C9C8DF50018E0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA6A0E522C9C8DF50018E0A4 /* HatchWithMe */,
+			);
+			name = HatchWithMe;
+			packageProductDependencies = (
+				FA67E2C32D90A2460086C0CB /* GoogleMobileAds */,
+			);
+			productName = HatchWithMe;
+			productReference = FA6A0E502C9C8DF50018E0A4 /* HatchWithMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA6A0E5F2C9C8DF60018E0A4 /* HatchWithMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6A0E772C9C8DF60018E0A4 /* Build configuration list for PBXNativeTarget "HatchWithMeTests" */;
+			buildPhases = (
+				FA6A0E5C2C9C8DF60018E0A4 /* Sources */,
+				FA6A0E5D2C9C8DF60018E0A4 /* Frameworks */,
+				FA6A0E5E2C9C8DF60018E0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6A0E622C9C8DF60018E0A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA6A0E632C9C8DF60018E0A4 /* HatchWithMeTests */,
+			);
+			name = HatchWithMeTests;
+			packageProductDependencies = (
+			);
+			productName = HatchWithMeTests;
+			productReference = FA6A0E602C9C8DF60018E0A4 /* HatchWithMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA6A0E692C9C8DF60018E0A4 /* HatchWithMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6A0E7A2C9C8DF60018E0A4 /* Build configuration list for PBXNativeTarget "HatchWithMeUITests" */;
+			buildPhases = (
+				FA6A0E662C9C8DF60018E0A4 /* Sources */,
+				FA6A0E672C9C8DF60018E0A4 /* Frameworks */,
+				FA6A0E682C9C8DF60018E0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6A0E6C2C9C8DF60018E0A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA6A0E6D2C9C8DF60018E0A4 /* HatchWithMeUITests */,
+			);
+			name = HatchWithMeUITests;
+			packageProductDependencies = (
+			);
+			productName = HatchWithMeUITests;
+			productReference = FA6A0E6A2C9C8DF60018E0A4 /* HatchWithMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6A0E482C9C8DF50018E0A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FA6A0E4F2C9C8DF50018E0A4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					FA6A0E5F2C9C8DF60018E0A4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FA6A0E4F2C9C8DF50018E0A4;
+					};
+					FA6A0E692C9C8DF60018E0A4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FA6A0E4F2C9C8DF50018E0A4;
+					};
+				};
+			};
+			buildConfigurationList = FA6A0E4B2C9C8DF50018E0A4 /* Build configuration list for PBXProject "HatchWithMe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA6A0E472C9C8DF50018E0A4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FA67E2C22D90A2460086C0CB /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA6A0E512C9C8DF50018E0A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6A0E4F2C9C8DF50018E0A4 /* HatchWithMe */,
+				FA6A0E5F2C9C8DF60018E0A4 /* HatchWithMeTests */,
+				FA6A0E692C9C8DF60018E0A4 /* HatchWithMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6A0E4E2C9C8DF50018E0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6A0E5E2C9C8DF60018E0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6A0E682C9C8DF60018E0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6A0E4C2C9C8DF50018E0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6A0E5C2C9C8DF60018E0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6A0E662C9C8DF60018E0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6A0E622C9C8DF60018E0A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6A0E4F2C9C8DF50018E0A4 /* HatchWithMe */;
+			targetProxy = FA6A0E612C9C8DF60018E0A4 /* PBXContainerItemProxy */;
+		};
+		FA6A0E6C2C9C8DF60018E0A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6A0E4F2C9C8DF50018E0A4 /* HatchWithMe */;
+			targetProxy = FA6A0E6B2C9C8DF60018E0A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA6A0E722C9C8DF60018E0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA6A0E732C9C8DF60018E0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA6A0E752C9C8DF60018E0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HatchWithMe/Preview Content\"";
+				DEVELOPMENT_TEAM = JCF8KR5D5D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HatchWithMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				INFOPLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beck.hatchwithme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA6A0E762C9C8DF60018E0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HatchWithMe/Preview Content\"";
+				DEVELOPMENT_TEAM = JCF8KR5D5D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HatchWithMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				INFOPLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beck.hatchwithme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FA6A0E782C9C8DF60018E0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU77623HQ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riis.HatchWithMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HatchWithMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HatchWithMe";
+			};
+			name = Debug;
+		};
+		FA6A0E792C9C8DF60018E0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU77623HQ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riis.HatchWithMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HatchWithMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HatchWithMe";
+			};
+			name = Release;
+		};
+		FA6A0E7B2C9C8DF60018E0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU77623HQ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riis.HatchWithMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HatchWithMe;
+			};
+			name = Debug;
+		};
+		FA6A0E7C2C9C8DF60018E0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU77623HQ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riis.HatchWithMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HatchWithMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6A0E4B2C9C8DF50018E0A4 /* Build configuration list for PBXProject "HatchWithMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6A0E722C9C8DF60018E0A4 /* Debug */,
+				FA6A0E732C9C8DF60018E0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6A0E742C9C8DF60018E0A4 /* Build configuration list for PBXNativeTarget "HatchWithMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6A0E752C9C8DF60018E0A4 /* Debug */,
+				FA6A0E762C9C8DF60018E0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6A0E772C9C8DF60018E0A4 /* Build configuration list for PBXNativeTarget "HatchWithMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6A0E782C9C8DF60018E0A4 /* Debug */,
+				FA6A0E792C9C8DF60018E0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6A0E7A2C9C8DF60018E0A4 /* Build configuration list for PBXNativeTarget "HatchWithMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6A0E7B2C9C8DF60018E0A4 /* Debug */,
+				FA6A0E7C2C9C8DF60018E0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA67E2C22D90A2460086C0CB /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA67E2C32D90A2460086C0CB /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA67E2C22D90A2460086C0CB /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA6A0E482C9C8DF50018E0A4 /* Project object */;
+}

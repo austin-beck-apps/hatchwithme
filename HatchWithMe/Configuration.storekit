@@ -1,0 +1,63 @@
+{
+  "identifier" : "YOUR_APP_ID",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "com.hatchwithme.removeads",
+      "localizations" : [
+        {
+          "description" : "Remove all ads from the app",
+          "displayName" : "Remove Ads",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.hatchwithme.removeads",
+      "referenceName" : "Remove Ads",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "YOUR_APP_ID",
+    "_developerTeamID" : "YOUR_TEAM_ID",
+    "_lastSynchronizedDate" : "YOUR_DATE"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "YOUR_GROUP_ID",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "YOUR_SUBSCRIPTION_ID",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Get expert advice for your hatches with our AI Assistant",
+              "displayName" : "AI Assistant Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.hatchwithme.aiassistant.subscription",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "AI Assistant Pro",
+          "subscriptionGroupID" : "YOUR_GROUP_ID"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+} 

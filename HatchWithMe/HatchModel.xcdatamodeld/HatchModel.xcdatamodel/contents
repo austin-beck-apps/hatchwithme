@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24C5073e" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ChatMessageEntity" representedClassName="ChatMessageEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="isUser" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="hatch" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HatchEntity"/>
+    </entity>
+    <entity name="HatchEntity" representedClassName=".HatchEntity" syncable="YES">
+        <attribute name="birdType" attributeType="String"/>
+        <attribute name="candlingObservations" optional="YES" attributeType="Binary"/>
+        <attribute name="failedEggs" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fertileEggs" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hasHatched" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="hatchDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="hatchedEggs" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="humidityLogs" optional="YES" attributeType="Binary"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="inLockdown" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lockdownDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="startDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="temperatureLogs" optional="YES" attributeType="Binary"/>
+        <attribute name="totalEggs" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+</model>
