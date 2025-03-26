@@ -11,5 +11,22 @@
 			<string>cstr6suwn9.skadnetwork</string>
 		</dict>
 	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>https</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>hatchwithme</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>com.austinbeck.HatchWithMe</string>
+		</dict>
+	</array>
+	<key>WebsiteURL</key>
+	<string>https://austin-beck-apps.github.io/hatchwithme/</string>
 </dict>
 </plist>

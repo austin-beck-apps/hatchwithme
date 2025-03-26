@@ -51,6 +51,7 @@ struct HatchDetailView: View {
     @StateObject private var viewModel: HatchViewModel
     @StateObject private var detailViewModel: HatchDetailViewModel
     @StateObject private var storeManager = StoreKitManager.shared
+    @StateObject private var subscriptionManager = SubscriptionManager.shared
     @State private var showingPurchaseView = false
     @State private var showingEditSheet = false
     @State private var showingAddNote = false
@@ -67,7 +68,7 @@ struct HatchDetailView: View {
     
     var body: some View {
         List {
-            Section(header: Text("Header")) {
+            Section {
                 HStack {
                     TextField("Hatch Name", text: Binding(
                         get: { detailViewModel.currentHatch.name },
@@ -194,35 +195,35 @@ struct HatchDetailView: View {
                 }
             }
             
-            Section(header: Text("AI Assistant")) {
-                if storeManager.hasAIAssistant {
-                    NavigationLink(destination: ChatView(hatch: hatch)) {
-                        HStack {
-                            Text("Ask for advice")
-                                .foregroundColor(.primary)
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                                .foregroundColor(.secondary)
-                        }
-                        .padding()
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
-                    }
-                } else {
-                    Button(action: { showingPurchaseView = true }) {
-                        HStack {
-                            Text("Unlock AI Assistant")
-                                .foregroundColor(.primary)
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                                .foregroundColor(.secondary)
-                        }
-                        .padding()
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
-                    }
-                }
-            }
+//            Section(header: Text("AI Assistant")) {
+//                if subscriptionManager.isSubscribed {
+//                    NavigationLink(destination: ChatView(hatch: hatch)) {
+//                        HStack {
+//                            Text("Ask for advice")
+//                                .foregroundColor(.primary)
+//                            Spacer()
+//                            Image(systemName: "chevron.right")
+//                                .foregroundColor(.secondary)
+//                        }
+//                        .padding()
+//                        .background(Color(.systemGray6))
+//                        .cornerRadius(10)
+//                    }
+//                } else {
+//                    NavigationLink(destination: AIAssistantView()) {
+//                        HStack {
+//                            Text("Unlock AI Assistant")
+//                                .foregroundColor(.primary)
+//                            Spacer()
+////                            Image(systemName: "chevron.right")
+////                                .foregroundColor(.secondary)
+//                        }
+//                        .padding()
+//                        .background(Color(.systemGray6))
+//                        .cornerRadius(10)
+//                    }
+//                }
+//            }
             
             Section(header: Text("Notes")) {
                 if detailViewModel.currentHatch.notes.isEmpty {
